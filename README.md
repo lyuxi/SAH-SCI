@@ -2,7 +2,7 @@
 
 Code for [![ECVA Paper](https://img.shields.io/static/v1?label=ECVA&message=Paper&labelColor=gray&color=brightgreen&style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08105.pdf)
 
-[Haijin Zeng](https://navyzeng.github.io/)^{*},[Yuxi Liu](https://github.com/lyuxi)^{*}, [Yongyong Chen](https://faculty.hitsz.edu.cn/chenyongyong?eqid=d6f576c70009d122000000066467508a), Youfa Liu, Chong Peng, Jingyong Su
+[Haijin Zeng](https://navyzeng.github.io/) ^*,[Yuxi Liu](https://github.com/lyuxi) ^*, [Yongyong Chen](https://faculty.hitsz.edu.cn/chenyongyong?eqid=d6f576c70009d122000000066467508a), Youfa Liu, Chong Peng, Jingyong Su
 
 IMEC-Ghent University  Belgium, Harbin Institute of Technology (Shenzhen)
 
