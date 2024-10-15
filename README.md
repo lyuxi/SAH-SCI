@@ -31,14 +31,15 @@ coded aperture snapshot spectral imaging (CASSI) systems. Despite theeffectivene
 
 ## Architecture
 
-### Framework of SAH-SCI
+## Framework of SAH-SCI
 
 <img src="figs/overall.jpg" style="width: 80%; display: block; margin-left: 0;" />  
 
 Mask $\mathbf{\Phi}$ and measurement $\mathbf{y}$ are input into the pre-trained model to obtain the initial results $\mathbf{X}_{pre}$, where the pre-trained model parameters are frozen. Then $\mathbf{X}_{pre}$ is fed into the self-supervised adapter SAH to obtain the HSI reconstruction result $\mathbf{X}_{rec}$. Bottom:Self-supervised loss component details.
 
-###  Self-Supervised Adapter SAH<img src="figs/SAH.jpg" style="width: 80%; display: block; margin-left: 0;" />
+##  Self-Supervised Adapter SAH
 
+<img src="figs/SAH.jpg" style="width: 80%; display: block; margin-left: 0;" />
 The architecture of SAH. (a) SAH stacks spatial-spectral convolutions with U-shaped structure. (b) The structure of the spatial-spectral convolution. (c) Frequency Adaption. Skip features and backbone features are concatenated by adaptive learnable weights based on frequency domain information.
 
 ## Usage
@@ -78,7 +79,7 @@ The trained SAH model is placed in`./checkpoint `.
 
 ```
 python test.py \
---gpu_id 7 \
+--gpu_id 0 \
 --dataset_path  ./datasets/ICVL/ \
 --checkpoint_path  ./checkpoint/(trained SAH.pth) \
 ```
