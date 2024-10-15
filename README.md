@@ -1,6 +1,7 @@
 # SAH-SCI: Self-Supervised Adapter for Efficient Hyperspectral Snapshot Compressive Imaging (ECCV 2024)
 
-Code for [![ECVA Paper](https://img.shields.io/static/v1?label=ECVA&message=Paper&labelColor=gray&color=brightgreen&style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08105.pdf)
+[![ECVA Paper](https://img.shields.io/static/v1?label=ECVA&message=Paper&labelColor=gray&color=brightgreen&style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08105.pdf)
+[![ECVA Supplementary](https://img.shields.io/static/v1?label=ECVA&message=Supplementary&labelColor=gray&color=brightgreen&style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08105-supp.pdf)
 
 [Haijin Zeng](https://navyzeng.github.io/)\*,[Yuxi Liu](https://github.com/lyuxi)\*, [Yongyong Chen](https://faculty.hitsz.edu.cn/chenyongyong?eqid=d6f576c70009d122000000066467508a), Youfa Liu, Chong Peng, Jingyong Su
 
