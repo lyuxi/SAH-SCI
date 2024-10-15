@@ -15,10 +15,10 @@ IMEC-Ghent University  Belgium, Harbin Institute of Technology (Shenzhen)
         <th style="text-align: center;">MSTPP+SAH</th>
     </tr>
     <tr>
-        <td><img src="figs/hdnet_out.gif" alt="HDNET" style="width: 200px; height: auto;"/></td>
-        <td><img src="figs/hdnet_sah_out.gif" alt="HDNET+SAH" style="width: 200px; height: auto;"/></td>
-        <td><img src="figs/mstpp_out.gif" alt="MSTPP" style="width: 200px; height: auto;"/></td>
-        <td><img src="figs/mstpp_sah_out.gif" alt="MSTPP+SAH" style="width: 200px; height: auto;"/></td>
+        <td><img src="figs/hdnet_out (1).gif" alt="HDNET" style="width: 200px; height: auto;"/></td>
+        <td><img src="figs/hdnet_sah_out (1).gif" alt="HDNET+SAH" style="width: 200px; height: auto;"/></td>
+        <td><img src="figs/mstpp_out (1).gif" alt="MSTPP" style="width: 200px; height: auto;"/></td>
+        <td><img src="figs/mstpp_sah_out (1).gif" alt="MSTPP+SAH" style="width: 200px; height: auto;"/></td>
     </tr>
 </table>
 
