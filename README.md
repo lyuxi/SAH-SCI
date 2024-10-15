@@ -100,5 +100,5 @@ If you find the code helpful in your research or work, please cite the following
 }
 ```
 
-This implementation is based on / inspired by https://github.com/caiyuanhao1998/MST?tab=readme-ov-file. Thanks for their generous open source.
+This implementation is based on / inspired by https://github.com/caiyuanhao1998/MST. Thanks for their generous open source.
 
