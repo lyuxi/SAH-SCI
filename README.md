@@ -34,7 +34,10 @@ coded aperture snapshot spectral imaging (CASSI) systems. Despite theeffectivene
 
 <img src="figs/overall.jpg" style="width: 80%; display: block; margin-left: 0;" />  
 
-Mask $\mathbf{\Phi}$ and measurement $\mathbf{y}$ are input into the pre-trained model to obtain the initial results $\mathbf{X}_{pre}$, where the pre-trained model parameters are frozen. Then $\mathbf{X}_{pre}$ is fed into the self-supervised adapter SAH to obtain the HSI reconstruction result $\mathbf{X}_{rec}$. Bottom:Self-supervised loss component details.
+Mask $\mathbf{\Phi}$ and measurement $\mathbf{y}$ are input into the pre-trained model to obtain the initial results **X**<sub>pre</sub>. , where the pre-trained model parameters are frozen. Then **X**<sub>pre</sub> is fed into the self-supervised adapter SAH to obtain the HSI reconstruction result **X**<sub>rec</sub>. Bottom: Self-supervised loss component details.
+
+
+
 
 ##  Self-Supervised Adapter SAH
 
@@ -45,9 +48,9 @@ The architecture of SAH. (a) SAH stacks spatial-spectral convolutions with U-sha
 
 ## Prepare pre-trained model and dataset
 
-Download the pretrained model zoo from ([Google Drive](https://drive.google.com/drive/folders/1zgB7jHqTzY1bjCSzdX4lKQEGyK3bpWIx?usp=sharing) / [Baidu Disk](https://pan.baidu.com/s/1CH4uq_NZPpo5ra2tFzAdfQ?pwd=mst1), code: `mst1`) or your own pretrained model and place them to `./model_zoo/`. Prepare your dataset  and place them to `./datasets/your dataset`. We use [ICVL](https://cndaqiang.github.io/ICVL-Natural-Hyperspectral-Image-Database/index.html) ,[Harvard](https://vision.seas.harvard.edu/hyperspec/download.html) and [NTIRE 2022](https://aistudio.baidu.com/datasetdetail/187778) dataset to validate our approach. 
+Download the pretrained model zoo from ([Google Drive](https://drive.google.com/drive/folders/1zgB7jHqTzY1bjCSzdX4lKQEGyK3bpWIx?usp=sharing) / [Baidu Disk](https://pan.baidu.com/s/1CH4uq_NZPpo5ra2tFzAdfQ?pwd=mst1), code: `mst1`) or your own pretrained model and place them to `./model_zoo/`. Prepare your dataset  and place them to `./datasets/your dataset`. We use [ICVL](https://cndaqiang.github.io/ICVL-Natural-Hyperspectral-Image-Database/index.html) ,[Harvard](https://vision.seas.harvard.edu/hyperspec/download.html) and [NTIRE 2022](https://aistudio.baidu.com/datasetdetail/187778) to validate our approach. 
 
-This code is based on HDNET trained on ICVL. I f you need to use your own dataset and pretrained model, please modify dataset loading method in `utils.py` and pre-trained model loading method in`train.py` . 
+This code is based on HDNET trained on ICVL. If you need to use your own dataset and pretrained model, please modify dataset loading method in `utils.py` and pre-trained model loading method in`train.py` . 
 
 ## Create Environment
 
