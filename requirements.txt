@@ -1,0 +1,7 @@
+einops==0.8.0
+h5py==3.12.1
+numpy==1.25.1
+opencv_python==4.9.0.80
+scipy==1.14.1
+torch==2.2.1
+tqdm==4.66.1
