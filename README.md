@@ -78,7 +78,7 @@ python train.py \
 
 ### Testing
 
-The trained SAH model is placed in`./checkpoint `.
+The trained SAH model should be put into`./checkpoint `.
 
 ```
 python test.py \
